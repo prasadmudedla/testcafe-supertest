@@ -11,5 +11,3 @@ test('My first test', async t => {
         .expect(Selector('#article-header').innerText)
         .eql('Thank you, John Smith!');
 });
-
-test('My Page Object Test', async t => {});
