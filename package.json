@@ -1,31 +1,31 @@
 {
-    "name": "playground",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "test:chrome": "TEST_ENV=dev testcafe chrome ui/tests/*.js",
-        "test:firefox": "testcafe firefox tests/*.js",
-        "servicetests": "mocha services/tests/*.js --env=test --timeout 20000"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/prasadmudedla/didactic-octo-disco.git"
-    },
-    "author": "Prasad",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/prasadmudedla/didactic-octo-disco/issues"
-    },
-    "homepage": "https://github.com/prasadmudedla/didactic-octo-disco#readme",
-    "dependencies": {
-        "config": "^3.3.0",
-        "dotenv": "8.2.0",
-        "minimist": "^1.2.5",
-        "mocha": "^7.1.1",
-        "path": "^0.12.7",
-        "supertest": "^4.0.2",
-        "testcafe": "^1.8.3"
-    }
+	"name": "playground",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"test:chrome": "TEST_ENV=dev testcafe chrome ui/tests/*.js",
+		"test:firefox": "testcafe firefox tests/*.js",
+		"servicetests": "mocha services/tests/*.js --env=test --timeout 20000"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prasadmudedla/didactic-octo-disco.git"
+	},
+	"author": "Prasad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/prasadmudedla/didactic-octo-disco/issues"
+	},
+	"homepage": "https://github.com/prasadmudedla/didactic-octo-disco#readme",
+	"dependencies": {
+		"config": "^3.3.0",
+		"dotenv": "8.2.0",
+		"minimist": "^1.2.5",
+		"mocha": "^7.1.1",
+		"path": "^0.12.7",
+		"supertest": "^4.0.2",
+		"testcafe": "^1.8.3"
+	}
 }

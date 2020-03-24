@@ -1,5 +1,6 @@
 {
 	"test": {
-		"hostUrl": "http://localhost:3030/"
+		"hostUrl": "http://localhost:3030/",
+		"baseUrl": "http://devexpress.github.io/testcafe/example"
 	}
 }
